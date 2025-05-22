@@ -1,0 +1,65 @@
+export const sidebarItems = [
+  {
+    title: "beranda",
+    subtitle: "Ringkasan",
+    description: "Menampilkan ringkasan aktivitas dan performa sistem.",
+    icon: "/icons/home.svg",
+    icon_active: "/icons/home-active.svg",
+  },
+  {
+    title: "ekonomi",
+    subtitle: "Ekonomi",
+    description: "Informasi dan statistik terkait ekonomi daerah.",
+    icon: "/icons/ekonomi.svg",
+    icon_active: "/icons/ekonomi-active.svg",
+  },
+  {
+    title: "infrastruktur",
+    subtitle: "Infrastruktur",
+    description: "Data dan indikator seputar pembangunan infrastruktur.",
+    icon: "/icons/infrastruktur.svg",
+    icon_active: "/icons/infrastruktur-active.svg",
+  },
+  {
+    title: "sosial",
+    subtitle: "Sosial",
+    description: "Data sosial dan kesejahteraan masyarakat.",
+    icon: "/icons/sosial.svg",
+    icon_active: "/icons/sosial-active.svg",
+  },
+  {
+    title: "kesehatan",
+    subtitle: "Kesehatan",
+    description: "Indikator kesehatan masyarakat dan fasilitas layanan.",
+    icon: "/icons/kesehatan.svg",
+    icon_active: "/icons/kesehatan-active.svg",
+  },
+  {
+    title: "pendidikan",
+    subtitle: "Pendidikan",
+    description: "Data terkait sistem dan capaian pendidikan.",
+    icon: "/icons/pendidikan.svg",
+    icon_active: "/icons/pendidikan-active.svg",
+  },
+  {
+    title: "pariwisata",
+    subtitle: "Pariwisata",
+    description: "Informasi dan statistik pariwisata daerah.",
+    icon: "/icons/pariwisata.svg",
+    icon_active: "/icons/pariwisata-active.svg",
+  },
+  {
+    title: "lingkungan",
+    subtitle: "Lingkungan",
+    description: "Data terkait kondisi dan pelestarian lingkungan.",
+    icon: "/icons/lingkungan.svg",
+    icon_active: "/icons/lingkungan-active.svg",
+  },
+  {
+    title: "kependudukan",
+    subtitle: "Kependudukan",
+    description: "Data demografi dan statistik kependudukan.",
+    icon: "/icons/kependudukan.svg",
+    icon_active: "/icons/kependudukan-active.svg",
+  }
+];
