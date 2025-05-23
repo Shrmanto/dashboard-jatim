@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 24, "column": 0}, "map": {"version":3,"sources":["file://D%3A/Kuliah/Project/dashboard-jatim/app/page.js"],"sourcesContent":["import Image from \"next/image\";\n\nexport default function Home() {\n  return <div>Halaman Utama</div>;\n}"],"names":[],"mappings":";;;;AAAA;;;AAEe,SAAS;IACtB,qBAAO,8OAAC;kBAAI;;;;;;AACd","debugId":null}}]
-}

@@ -1,8 +1,0 @@
-{
-  "/_not-found/page": "app/_not-found/page.js",
-  "/dashboards/beranda/page": "app/dashboards/beranda/page.js",
-  "/dashboards/ekonomi/page": "app/dashboards/ekonomi/page.js",
-  "/dashboards/infrastruktur/page": "app/dashboards/infrastruktur/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
-}
