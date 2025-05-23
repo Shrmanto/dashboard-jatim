@@ -70,7 +70,7 @@ const data = {
         <button className="bg-main-blue/10 text-main-blue rounded-md py-2 px-4 text-sm font-bold">Detail</button>
         </div>
 
-        <h3 className="font-bold mb-6 text-xl text-slate-700 mt-4">Jenajang pendidikan</h3>
+        <h3 className="font-bold mb-6 text-xl text-slate-700 mt-4">Jenjang pendidikan</h3>
 
         <div className="flex gap-4 items-center">
           <div className="w-1/2">
