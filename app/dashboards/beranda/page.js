@@ -13,7 +13,7 @@ const Beranda = () => {
       <h1 className="text-navy-blue text-2xl font-bold mb-6">Main Dashboards</h1>
       <div className="flex gap-6 mb-6">
         <LineChart />
-        <DoughnutchartV2 />
+        <DoughnutChart />
       </div>
       <div className="flex gap-6 mb-6">
         <PovertyChart/>

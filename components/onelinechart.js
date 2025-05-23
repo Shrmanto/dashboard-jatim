@@ -63,7 +63,7 @@ const OnelineChart = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-6h6v6m2 4H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v14a2 2 0 01-2 2z" />
                 </svg>
             </span>
-            <h2 className="text-lg font-semibold text-gray-500">Ekonomi</h2>
+            <h2 className="text-lg font-semibold text-gray-500">Lingkungan</h2>
             </div>
             <button className="bg-main-blue/10 text-main-blue rounded-md py-2 px-4 text-sm font-bold">Detail</button>
         </div>
@@ -74,27 +74,29 @@ const OnelineChart = () => {
             <h3 className="text-lg font-medium text-gray-800">
             Indeks Kualitas Udara (AQI)
             </h3>
-            <button className="text-sm text-blue-600 flex items-center gap-1">
-            Harian
+            <button className="text-sm  flex items-center gap-1">
+             Tampilkan : <span className="text-blue-600">Harian</span>
             </button>
         </div>
-
-        {/* Chart */}
-        <Line data={data} options={options} className="max-h-28"/>
-
-        {/* Cards */}
-        <div className="grid grid-cols-2 gap-2 mt-4 text-sm">
-            <div className="bg-green-50 rounded-lg p-3">
-            <p className="text-green-600 font-semibold">Kemarin</p>
-            <p className="text-gray-800">AQI: 87 <span className="text-gray-500">(Sedang)</span></p>
-            <p className="text-gray-600">Polutan Dominan: PM2.5</p>
-            </div>
-            <div className="bg-blue-50 rounded-lg p-3">
-            <p className="text-blue-600 font-semibold">Hari Ini</p>
-            <p className="text-gray-800">AQI: 92 <span className="text-gray-500">(Sedang)</span></p>
-            <p className="text-gray-600">Polutan Dominan: PM10</p>
-            </div>
+        <div className="flex gap-3">
+          {/* Cards */}
+          <div className="flex flex-col gap-2 mt-4 text-sm w-max">
+              <div className="bg-green-50 rounded-lg p-3">
+              <p className="text-green-600 font-semibold">Kemarin</p>
+              <p className="text-gray-800">AQI: 87 <span className="text-gray-500">(Sedang)</span></p>
+              <p className="text-gray-600">Polutan Dominan: PM2.5</p>
+              </div>
+              <div className="bg-blue-50 rounded-lg p-3">
+              <p className="text-blue-600 font-semibold">Hari Ini</p>
+              <p className="text-gray-800">AQI: 92 <span className="text-gray-500">(Sedang)</span></p>
+              <p className="text-gray-600">Polutan Dominan: PM10</p>
+              </div>
+          </div>
+        <Line data={data} options={options} className="max-w-[320px] max-h-[188px]"/>
         </div>
+        {/* Chart */}
+
+        
     </div>
   );
 }
