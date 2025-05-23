@@ -65,7 +65,7 @@ const data = {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 17v-6h6v6m2 4H7a2 2 0 01-2-2V5a2 2 0 012-2h10a2 2 0 012 2v14a2 2 0 01-2 2z" />
             </svg>
             </span>
-            <h2 className="text-lg font-semibold text-gray-500">Ekonomi</h2>
+            <h2 className="text-lg font-semibold text-gray-500">Pendidikan</h2>
         </div>
         <button className="bg-main-blue/10 text-main-blue rounded-md py-2 px-4 text-sm font-bold">Detail</button>
         </div>
