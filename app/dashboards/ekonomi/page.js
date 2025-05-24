@@ -5,6 +5,7 @@ import UsahaMicroChart from "../../../components/usahamicrochart";
 import UsahaKecilChart from "../../../components/usahakecilchart";
 import UsahaMenengahChart from "../../../components/usahamenengahchart";
 import UsahaBesarChart from "../../../components/usahabesarchart";
+import KategoriPendapatanChart from "../../../components/kategoripendapatan";
 
 const Ekonomi = () => {
   return (
@@ -25,7 +26,10 @@ const Ekonomi = () => {
         <UsahaMenengahChart />
         <UsahaBesarChart />
       </div>
-      <div className="flex gap-6"></div>
+      <div className="flex gap-6">
+        <KategoriPendapatanChart />
+        <KategoriPendapatanChart />
+      </div>
     </div>
   );
 };
