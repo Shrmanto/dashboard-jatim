@@ -6,6 +6,7 @@ import HorizontalBarChart from "../../../components/horizontalbarchart";
 import PieChart from "../../../components/piechart";
 import OneBar from "../../../components/onebar";
 import OnelineChart from "../../../components/onelinechart";
+import TableChart from "../../../components/tablechart";
 
 const Beranda = () => {
   return (
@@ -23,6 +24,9 @@ const Beranda = () => {
       <div className="flex gap-6">
         <OneBar/>
         <OnelineChart/>
+      </div>
+      <div className="flex gap-6">
+        <TableChart/>
       </div>
     </div>
   )
